@@ -149,7 +149,7 @@ function TimerPage() {
             </TabsList>
           </Tabs>
 
-          <div className="text-7xl font-mono tracking-tight tabular-nums bg-gradient-to-br from-[--saffron] via-[--gold] to-[--emerald-glow] bg-clip-text text-transparent">
+          <div className="text-7xl font-mono tracking-tight tabular-nums text-saffron drop-shadow-[0_0_24px_rgba(255,176,0,0.35)]">
             {formatHMS(targetSeconds > 0 ? Math.max(0, targetSeconds - elapsed) : elapsed)}
           </div>
           {mode !== "stopwatch" && (
